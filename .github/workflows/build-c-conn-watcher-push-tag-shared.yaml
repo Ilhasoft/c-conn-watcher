@@ -22,8 +22,8 @@ jobs:
           echo "COMMIT_SHA=${GITHUB_SHA}"
           echo "REGISTRY_URL=242357350604.dkr.ecr.ap-south-1.amazonaws.com" >> ${GITHUB_ENV}
           echo "REGISTRY_URL=242357350604.dkr.ecr.ap-south-1.amazonaws.com"
-          echo "IMAGE_TAG=c-conn-watcher:${TAG}" >> ${GITHUB_ENV}
-          echo "IMAGE_TAG=c-conn-watcher:${TAG}"
+          echo "IMAGE_TAG=rapidpro:c-conn-watcher-${TAG}" >> ${GITHUB_ENV}
+          echo "IMAGE_TAG=rapidpro:c-conn-watcher-${TAG}"
           echo "IMAGE_REPOSITORY=Ilhasoft/c-conn-watcher" >> ${GITHUB_ENV}
           echo "IMAGE_REPOSITORY=Ilhasoft/c-conn-watcher"
           #echo "MANIFESTS_REPOSITORY=Ilhasoft/kubernetes-manifests" >> ${GITHUB_ENV}
